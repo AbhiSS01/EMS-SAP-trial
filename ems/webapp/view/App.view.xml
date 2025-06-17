@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.incture.ems.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <App id="app">
+        <mvc:XMLView id="loginPage" viewName="com.incture.ems.view.Login"/>
+        <mvc:XMLView id="homePage" viewName="com.incture.ems.view.Home"/>
+    </App>
+</mvc:View>

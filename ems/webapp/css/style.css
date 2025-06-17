@@ -1,0 +1,12 @@
+/* Enter your custom styles here */
+.page1{
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.headText{
+    color: aliceblue;
+    background-color: rgb(74, 175, 34);
+    font-weight: 900;
+}

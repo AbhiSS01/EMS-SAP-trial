@@ -1,0 +1,20 @@
+<ActionSheet id="actionSheet"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	core:require="{ MessageToast: 'sap/m/MessageToast' }"
+	title="Settings"
+	showCancelButton="true"
+	placement="Bottom">
+	<Button
+        id="idBtn1"
+		text="Accept"
+		icon="sap-icon://accept"
+		 />
+	<Button
+        id="idBtn2"
+		text="Theme"
+		icon="sap-icon://palette"
+		tooltip="Switch Theme"
+		press="onToggleTheme"
+		/>
+</ActionSheet>

@@ -1,0 +1,14 @@
+<mvc:View
+  controllerName="com.incture.ems.controller.Login"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  displayBlock="true">
+  
+  <Page id="login" title="Login" class="sapUiContentPadding" showHeader="false">
+    <VBox id="_IDGenVBox1" justifyContent="Center" alignItems="Center" class="sapUiSmallMarginTop">
+      <Input id="username" placeholder="Username" width="300px"/>
+      <Input id="password" placeholder="Password" type="Password" width="300px"/>
+      <Button id="_IDGenButton5" text="Login" press="onLoginPress" width="300px"/>
+    </VBox>
+  </Page>
+</mvc:View>

@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <Dialog id="addEmployeeDialog" title="Add New Employee" draggable="true" resizable="true">
+    <VBox id="_IDGenVBox" class="sapUiSmallMargin">
+      <Input placeholder="EMP_ID" id="empId"/>
+      <Input placeholder="NAME" id="name"/>
+      <Input placeholder="EMAIL" id="email"/>
+      <Input placeholder="COUNTRY" id="country"/>
+      <Input placeholder="CURRENT_ADDRESS" id="currentAdd"/>
+      <Input placeholder="PERMANENT_ADDRESS" id="presentAdd"/>
+      <Input placeholder="PHONE_NUMBER" id="phone"/>
+      <Input placeholder="PINCODE" id="pincode"/>
+      <Input placeholder="STATE" id="state"/>
+      <Input placeholder="AGE" id="age" type="Number"/>
+      <Input placeholder="GENDER" id="gender"/>
+      <Input placeholder="IS_ACTIVE (true/false)" id="isActive" />
+      <Input placeholder="SALARY" id="salary" type="Number"/>
+      <Input placeholder="BONUS" id="bonus" type="Number"/>
+      <Input placeholder="DEDUCTIONS" id="deductions" type="Number"/>
+      <Input placeholder="PROJECT_ID" id="projectId" type="Number"/>
+    </VBox>
+    <beginButton>
+      <Button id="_IDGenButton2" text="Create" press="onCreateEmployee"/>
+    </beginButton>
+    <endButton>
+      <Button id="_IDGenButton3" text="Cancel" press="onCloseDialog"/>
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>
